@@ -1,6 +1,6 @@
 [project]
 title = games_quiz
-version = 1.0.2
+version = 1.0.3
 write_log = 0
 minimum_log_level = 1
 compress_archive = 1
@@ -151,7 +151,7 @@ immersive_mode = 0
 display_cutout = 1
 debuggable = 0
 proguard = 
-extract_native_libs = 1
+extract_native_libs = 0
 
 [osx]
 app_icon = 
@@ -207,6 +207,7 @@ subpixels = 1
 track_cpu = 0
 enabled = 0
 sleep_between_server_updates = 0
+performance_timeline_enabled = 0
 
 [liveupdate]
 settings = /liveupdate.settings
@@ -220,7 +221,9 @@ max_tile_count = 0
 [engine]
 run_while_iconified = 0
 fixed_update_frequency = 60
-max_time_step = 0.5
+max_time_step = 0.033333
+
+[font]
 
 [native_extension]
 app_manifest = /game.appmanifest
